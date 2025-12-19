@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.login {
+    height: 310px;
+    width: 300px;
+    background-color: rgb(255, 199, 127);
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+}
+
+.login h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    background-color: rgb(255, 181, 84);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.login img {
+    display: block;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+}
+
+.login input {
+    display: block;
+    margin: auto;
+    height: 20px;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+.login button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 1px;
+}
+
+.login a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.login button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 150, 0);
+    transition-duration: 0.5s;
+}
+
+.divlink {
+    height: 100px;
+    width: 400px;
+    background-color: rgb(255, 199, 127);
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+}
+
+.divlink h2 {
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    background-color: rgb(255, 181, 84);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.divlink a{
+    width: 110px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.divlink a:hover {
+    cursor: pointer;
+    background-color: rgb(0, 150, 0);
+    transition-duration: 0.5s;
+}
